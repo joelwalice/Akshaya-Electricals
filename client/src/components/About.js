@@ -13,7 +13,7 @@ const About = () => {
         </div>
         <h2 className='mt-[30px] text-3xl'><b>Meet our Founder</b></h2>
         <div className='mt-[30px] grid-cols-1 flex flex-col justify-center gap-5 md:flex-row md:items-center'>
-          <img src={founder} alt='Founder' className='rounded-[50%] mb-[20px]' width={200} height={200} />
+          <img src={founder} alt='Founder' className='rounded-lg shadow-lg shadow-black transform -scale-x-100 mb-[20px]' width={200} height={200} />
           <p className='mb-[20px]'>Mr. Krishna Moorthi A, the humble Founder and Managing Director of Akshaya Home Appliances, embarked on his entrepreneurial journey 23 years ago. From his beginnings in audio recording during the 1980s-90s, he transitioned into CD cassettes, eventually leading to the thriving home appliances business we know today. Hailing from a modest background in Sathyamangalam, he's not only risen to success but now boasts an impressive annual turnover of 5 crore. With over 5000 loyal and trustworthy consumers, his remarkable journey is an inspiration to us all.</p>
         </div>
         <div className='my-[30px] grid-cols-1 flex flex-col justify-center gap-5 md:flex-row md:items-center'>
