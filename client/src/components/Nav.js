@@ -28,7 +28,7 @@ const Nav = () => {
         </div>
         
       </div> : <div className='relative'>
-        <div className='flex md:hidden fixed w-full right-[-500px] top-[105px] duration-500 text-[#5a116b] bg-white h-[250px] rounded-lg w-[150px] items-center justify-center'>
+        <div className='flex md:hidden fixed right-[-500px] top-[105px] duration-500 text-[#5a116b] bg-white h-[250px] rounded-lg w-[150px] items-center justify-center'>
             <div className='flex flex-col items-center justify-center p-4 gap-4'>
             <Link to="/">
             <h1 className='font-semibold'>Home</h1></Link>
