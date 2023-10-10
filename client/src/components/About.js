@@ -21,8 +21,6 @@ const About = () => {
             <img src={bni} alt='BNI Logo' width={250} height={250} className='block mb-[20px] md:hidden' />
             <p><b>At Akshaya Home Appliances, we are honored to be part of the esteemed BNI Landmark Chapter located in Sathyamangalam. This membership reflects our dedication to networking, growth, and excellence in serving our valued customers.</b>
             </p>
-            <p>
-              Our journey in BNI is led by the visionary leadership of Mr. A. Krishnamoorthi, the Founder and CEO of Akshaya Home Appliances. He takes great pride in his membership with Business Network International (BNI), a global organization known for fostering professional relationships and creating opportunities for businesses to thrive.</p>
           </div>
           <img src={bni} alt='BNI Logo' width={250} height={250} className='hidden md:block' />
         </div>
