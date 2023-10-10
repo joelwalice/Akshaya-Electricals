@@ -59,7 +59,7 @@ const Branch = () => {
           <img className='rounded-lg w-[300px] h-[200px]' src={electronics} alt='Home' />
           <h3 className='p-3 text-xl md:text-2xl font-semibold justify-center items-center'>Akshaya Electronics</h3>
           <p className='text-md flex items-center'>ldkhfvbdskvbsdvkjbdsvdbs j jhdvcasycvikhb</p>
-          <a href='/'>
+          <a href='/electronics'>
             <button className='mt-4 bg-white p-4 text-[#5a005b] font-semibold rounded-lg'>Explore Now &gt;</button>
           </a>
         </div>

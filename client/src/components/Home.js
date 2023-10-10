@@ -1,10 +1,11 @@
 import React from 'react'
+import HPage from "../assets/css/page-1.png"
 
 const Home = () => {
   return (
     <>
-    <div className='p-4 flex items-center justify-center'>
-      <h1>Home</h1>
+    <div className='flex items-center justify-center'>
+      <img src={HPage} alt="Home Page" className='w-screen'/>
     </div>
     </>
   )

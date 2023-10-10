@@ -9,14 +9,12 @@ const Nav = () => {
   return (
     <div>
       {nav ? <div className='relative'>
-        <div className='flex md:hidden fixed right-0 top-[105px] duration-500 text-[#5a116b] bg-white h-[250px] rounded-l-lg w-[148px] items-center justify-center'>
-            <div className='flex flex-col items-center justify-center p-4 gap-4'>
+        <div className='flex md:hidden fixed right-0 top-[105px] duration-500 text-[#5a116b] bg-white h-[200px] rounded-l-lg w-[148px] items-center justify-center'>
+            <div className='flex flex-col items-center justify-center  p-4 gap-4'>
             <Link to="/">
             <h1 className='font-semibold' onClick={() => {setNav(!nav)}}>Home</h1></Link>
           <Link to="/about">
             <h1 className='font-semibold' onClick={() => {setNav(!nav)}}>About</h1></Link>
-          <Link to="/electronics">
-            <h1 className='font-semibold' onClick={() => {setNav(!nav)}}>Electronics</h1></Link>
           <Link to="/branch">
             <h1 className='font-semibold' onClick={() => {setNav(!nav)}}>Branch</h1></Link>
           <a href='tel:9865974107'>
@@ -28,14 +26,12 @@ const Nav = () => {
         </div>
         
       </div> : <div className='relative'>
-        <div className='flex md:hidden fixed right-[-500px] top-[105px] duration-500 text-[#5a116b] bg-white h-[250px] rounded-lg w-[150px] items-center justify-center'>
+        <div className='flex md:hidden fixed right-[-500px] top-[105px] duration-500 text-[#5a116b] bg-white h-[200px] rounded-lg w-[150px] items-center justify-center'>
             <div className='flex flex-col items-center justify-center p-4 gap-4'>
             <Link to="/">
             <h1 className='font-semibold'>Home</h1></Link>
           <Link to="/about">
             <h1 className='font-semibold'>About</h1></Link>
-          <Link to="/electronics">
-            <h1 className='font-semibold'>Electronics</h1></Link>
           <Link to="/branch">
             <h1 className='font-semibold'>Branch</h1></Link>
           <a href='tel:9865974107'>
@@ -52,13 +48,11 @@ const Nav = () => {
             <img src={Logo} alt="logo" className='w-[90px]' />
           </Link>
         </div>
-        <div className='hidden md:flex items-center justify-center gap-5 mr-4'>
+        <div className='hidden md:flex items-center justify-center text-xl gap-5 mr-4'>
           <Link to="/">
             <h1 className='font-semibold'>Home</h1></Link>
           <Link to="/about">
             <h1 className='font-semibold'>About</h1></Link>
-          <Link to="/electronics">
-            <h1 className='font-semibold'>Electronics</h1></Link>
           <Link to="/branch">
             <h1 className='font-semibold'>Branch</h1></Link>
           <a href='tel:9865974107'>
