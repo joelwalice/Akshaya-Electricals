@@ -7,7 +7,7 @@ const Branch = () => {
     <div>
       <h2 className='p-4 text-4xl md:text-5xl font-semibold flex items-center justify-center'>Our Branches</h2>
       <div className=' mt-4 p-4 grid grid-cols-1 sm:grid-cols-2 gap-[100px] items-center justify-center mb-10'>
-        <div className='flex flex-col items-center justify-center'>
+        <div className='flex flex-col items-center justify-center relative'>
           <div className='opacity-0 bg-black/50 rounded-lg hover:opacity-100 tranisition delay-75 duration-200 ease-in-out w-[300px] h-[200px] absolute top-0 flex items-center justify-center my-auto gap-2 mx-auto'>
             <a href='https://maps.app.goo.gl/p8vSm4RqMfZzFzJQA' target='_blank'><button className='border-1 bg-white p-2 border-white text-[#5a116b] rounded-lg font-semibold'>
               <img width="43" height="43" src="https://img.icons8.com/ios-filled/100/5a116b/marker.png" alt="marker" />
