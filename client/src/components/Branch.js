@@ -20,7 +20,7 @@ const Branch = () => {
           </div>
           <img className='rounded-lg w-[300px] h-[200px]' src={home} alt='Home' />
           <h3 className='p-3 text-xl md:text-2xl font-semibold items-center justify-center'>Akshaya Home Appliances</h3>
-          <p className='text-md p-4 items-center'>Sathy to Erode Highwyas, Puliyampatti, pirivu, Ariyappampalayam, Sathyamangalam, Erode district Tamil Nadu-638402</p>
+          <p className='text-md p-4 flex items-center justify-center'>Sathy to Erode Highwyas, Puliyampatti, pirivu, Ariyappampalayam, Sathyamangalam, Erode district Tamil Nadu-638402</p>
           <a href='/'>
             <button className='mt-4 bg-white p-4 text-[#5a005b] font-semibold rounded-lg'>Explore Now &gt;</button>
           </a>
@@ -38,7 +38,7 @@ const Branch = () => {
           </div>
           <img className='rounded-lg w-[300px] h-[200px]' src={home} alt='Home' />
           <h3 className='p-3 text-xl md:text-2xl font-semibold items-center justify-center'>Akshaya Home Appliances</h3>
-          <p className='text-md p-4 items-center'>Sathy to Erode Highwyas, Puliyampatti, pirivu, Ariyappampalayam, Sathyamangalam, Erode district Tamil Nadu-638402</p>
+          <p className='text-md p-4 flex items-center justify-center'>Sathy to Erode Highwyas, Puliyampatti, pirivu, Ariyappampalayam, Sathyamangalam, Erode district Tamil Nadu-638402</p>
           <a href='/'>
             <button className='mt-4 bg-white p-4 text-[#5a005b] font-semibold rounded-lg'>Explore Now &gt;</button>
           </a>
