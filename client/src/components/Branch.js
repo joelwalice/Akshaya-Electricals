@@ -20,7 +20,7 @@ const Branch = () => {
           </div>
           <img className='rounded-lg w-[300px] h-[200px]' src={home} alt='Home' />
           <h3 className='p-3 text-xl md:text-2xl font-semibold items-center justify-center'>Akshaya Home Appliances</h3>
-          <p className='text-md p-4 flex items-center justify-center'>Sathy to Erode Highwyas, Puliyampatti pirivu,<br /> Ariyappampalayam, Sathyamangalam,<br /> Erode district,<br /> Tamil Nadu-638402</p>
+          <p className='text-md m-2 p-4 flex items-center justify-center'>Sathy to Erode Highwyas, Puliyampatti pirivu,<br /> Ariyappampalayam, Sathyamangalam,<br /> Erode district, Tamil Nadu-638402.</p>
           <a href='/'>
             <button className='mt-4 bg-white p-4 text-[#5a005b] font-semibold rounded-lg'>Explore Now &gt;</button>
           </a>
@@ -38,7 +38,7 @@ const Branch = () => {
           </div>
           <img className='rounded-lg w-[300px] h-[200px]' src={home} alt='Home' />
           <h3 className='p-3 text-xl md:text-2xl font-semibold items-center justify-center'>Akshaya Home Appliances</h3>
-          <p className='text-md p-4 flex items-center justify-center'>Sathy to Erode Highwyas, Puliyampatti pirivu,<br /> Ariyappampalayam, Sathyamangalam,<br /> Erode district,<br /> Tamil Nadu-638402</p>
+          <p className='text-md m-2 p-4 flex items-center justify-center'>Sathy to Erode Highwyas, Puliyampatti pirivu,<br /> Ariyappampalayam, Sathyamangalam,<br /> Erode district, Tamil Nadu-638402.</p>
           <a href='/'>
             <button className='mt-4 bg-white p-4 text-[#5a005b] font-semibold rounded-lg'>Explore Now &gt;</button>
           </a>
@@ -58,7 +58,7 @@ const Branch = () => {
           </div>
           <img className='rounded-lg w-[300px] h-[200px]' src={electronics} alt='Home' />
           <h3 className='p-3 text-xl md:text-2xl font-semibold justify-center items-center'>Akshaya Electronics</h3>
-          <p className='text-md flex items-center p-4 justify-center'>14, 15, New Bus Stand Complex,<br /> Sathyamangalam, Erode district,<br /> Tamil Nadu-638402</p>
+          <p className='text-md flex items-center m-2 p-4 justify-center'>14, 15, New Bus Stand Complex,<br /> Sathyamangalam, Erode district,<br /> Tamil Nadu-638402</p>
           <a href='/electronics'>
             <button className='mt-4 bg-white p-4 text-[#5a005b] font-semibold rounded-lg'>Explore Now &gt;</button>
           </a>
