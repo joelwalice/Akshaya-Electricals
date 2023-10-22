@@ -11,9 +11,6 @@
         background-color: #5a005b;
         @apply text-white;
     }
-    body::-webkit-scrollbar {
-        display: none;
-    }
 
     button{
         @apply border border-black py-1 rounded-full;
