@@ -180,22 +180,22 @@ const Electronics = () => {
                 </div>
             </div>
             <div className='flex flex-col items-center justify-center'>
-                <p className='text-3xl font-semibold flex items-center justify-center m-4 md:text-4xl p-4'>Dishes</p>
+                <p className='text-3xl font-semibold flex items-center justify-center m-4 md:text-4xl p-4'>DTH</p>
                 <div className='p-4 rounded-lg shadow-lg gap-4 overflow-x-auto' ref={(element) => setScroll(element)}>
                     <div className='flex items-center '>
-                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Sun direct DTH connection?&type=phone_number&app_absent=0">
-
+                        {/* <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Sun direct DTH connection?&type=phone_number&app_absent=0"> */}
                             <img src={SD} width={180} height={100} alt="/" />
-                        </a>
-                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Tata play DTH connection?&type=phone_number&app_absent=0">
+                        {/* </a> */}
+                        {/* <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Tata play DTH connection?&type=phone_number&app_absent=0"> */}
                             <img src={TSk} width={180} height={100} alt="/" />
-                        </a>
-                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Airtel DTH connection?&type=phone_number&app_absent=0">
+                        {/* </a> */}
+                        {/* <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Airtel DTH connection?&type=phone_number&app_absent=0"> */}
                             <img src={Airtel} width={180} height={100} alt="/" />
-                        </a>
-                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Dish TV D2H DTH connection?&type=phone_number&app_absent=0">
+                        {/* </a> */}
+                        {/* <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Dish TV D2H DTH connection?&type=phone_number&app_absent=0"> */}
                             <img src={D2H} width={180} height={100} alt="/" />
-                        </a></div></div>
+                        {/* </a> */}
+                        </div></div>
             </div>
             <div className='sticky bottom-0 right-0 p-3 flex justify-end'>
                 <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text&type=phone_number&app_absent=0" className="bg-green-500 p-3 rounded-full">
