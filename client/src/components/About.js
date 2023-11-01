@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import home from '../assets/css/home.jpg'
 import founder from '../assets/css/founder.jpg'
 import bni from '../assets/css/bni_logo.png'
 

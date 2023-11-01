@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react'
 import elect from '../assets/css/elctr.png'
 import elect2 from '../assets/css/elect.png'
@@ -61,11 +60,16 @@ const Electronics = () => {
                     <p className='flex items-center justify-center text-2xl text-[#5a116b] font-semibold pb-4'>Amplifier</p>
                     <div className='flex items-center justify-center text-[#5a116b] gap-2'>
                         <div className='flex flex-col items-center justify-center'>
-                            <img src={Acas} className="shadow-lg rounded-lg" alt='dc-assembler' width={120} height={120} />
+                            <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Amplifier?&type=phone_number&app_absent=0">
+                                <img src={Acas} className="shadow-lg rounded-lg" alt='dc-assembler' width={120} height={120} />
+                            </a>
                             <p className='p-2 font-semibold'>Assemble AC</p>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <img src={Dcas} alt='dc-assembler' width={120} height={120} className='rounded-lg shadow-lg' />
+                            <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Amplifier?&type=phone_number&app_absent=0">
+
+                                <img src={Dcas} alt='dc-assembler' width={120} height={120} className='rounded-lg shadow-lg' />
+                            </a>
                             <p className='p-2 font-semibold'>Assemble DC</p>
                         </div>
                     </div>
@@ -74,11 +78,16 @@ const Electronics = () => {
                     <p className='flex items-center justify-center text-2xl text-[#5a116b] font-semibold pb-4'>Mic Set items</p>
                     <div className='flex items-center justify-center text-[#5a116b] gap-2 md:gap-10'>
                         <div className='flex flex-col items-center justify-center'>
-                            <img src={micset1} alt='Mic set 1' width={120} height={120} className='rounded-lg shadow-lg' />
+                            <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Horn speakers?&type=phone_number&app_absent=0">
+                                <img src={micset1} alt='Mic set 1' width={120} height={120} className='rounded-lg shadow-lg' />
+                            </a>
                             <p className='p-2 font-semibold'>Horn Speakers</p>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <img src={micset2} alt='Mic set 2' width={120} height={120} className='rounded-lg shadow-lg' />
+                            <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Microphone?&type=phone_number&app_absent=0">
+
+                                <img src={micset2} alt='Mic set 2' width={120} height={120} className='rounded-lg shadow-lg' />
+                            </a>
                             <p className='p-2 font-semibold'>Microphones</p>
                         </div>
                     </div>
@@ -87,11 +96,17 @@ const Electronics = () => {
                     <p className='flex items-center justify-center text-2xl text-[#5a116b] font-semibold pb-4'>Lights</p>
                     <div className='flex items-center justify-center text-[#5a116b] gap-2'>
                         <div className='flex flex-col items-center justify-center'>
-                            <img src={torch} alt='Torch' width={120} height={120} className='rounded-lg shadow-lg' />
+                            <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Torch?&type=phone_number&app_absent=0">
+
+                                <img src={torch} alt='Torch' width={120} height={120} className='rounded-lg shadow-lg' />
+                            </a>
                             <p className='p-2 font-semibold'>Torches</p>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <img src={led} alt='LED' width={120} height={120} className='rounded-lg shadow-lg' />
+                            <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about LED, Lights?&type=phone_number&app_absent=0">
+
+                                <img src={led} alt='LED' width={120} height={120} className='rounded-lg shadow-lg' />
+                            </a>
                             <p className='p-2 font-semibold'>LED, Lights</p>
                         </div>
                     </div>
@@ -105,23 +120,31 @@ const Electronics = () => {
                     <div className='flex items-center justify-center text-[#5a116b]'>
                         <div className='grid grid-cols-2 md:grid-cols-4 items-center'>
                             <div className='flex flex-col items-center justify-center'>
-                                <img src={HT} alt='Home-Theatre' width={100} height={100} className='rounded-lg shadow-lg' />
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Home theatre?&type=phone_number&app_absent=0">
+
+                                    <img src={HT} alt='Home-Theatre' width={100} height={100} className='rounded-lg shadow-lg' />
+                                </a>
                                 <p className='p-2 text-sm font-semibold'>Home Theatre</p>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <img src={SB} alt='Speaker-Box' width={100} height={100} className='rounded-lg shadow-lg' />
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Speaker box?&type=phone_number&app_absent=0">
+                                    <img src={SB} alt='Speaker-Box' width={100} height={100} className='rounded-lg shadow-lg' />
+                                </a>
                                 <p className='p-2 text-sm font-semibold'>Speaker Box</p>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <img src={TS} alt='Trolley-Speaker' width={100} height={100} className='rounded-lg shadow-lg' />
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Trolley Speaker?&type=phone_number&app_absent=0">
+                                    <img src={TS} alt='Trolley-Speaker' width={100} height={100} className='rounded-lg shadow-lg' />
+                                </a>
                                 <p className='p-2 text-sm font-semibold'>Trolley Speaker</p>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <img src={BS} alt='Bluetooth Speaker' width={100} height={100} className='rounded-lg shadow-lg' />
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Bluethooth Speaker?&type=phone_number&app_absent=0">
+                                    <img src={BS} alt='Bluetooth Speaker' width={100} height={100} className='rounded-lg shadow-lg' />
+                                </a>
                                 <p className='p-2 text-sm font-semibold'>Bluetooth Speaker</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div className='pt-4 pb-4 rounded-lg shadow-lg bg-gray-200 w-full'>
@@ -129,23 +152,30 @@ const Electronics = () => {
                     <div className='flex items-center justify-center text-[#5a116b]'>
                         <div className='grid grid-cols-2 text-sm md:grid-cols-4 items-center'>
                             <div className='flex flex-col items-center justify-center'>
-                                <img src={solar} alt='Solar panel' width={100} height={100} className='rounded-lg shadow-lg' />
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Solar panel?&type=phone_number&app_absent=0">
+                                    <img src={solar} alt='Solar panel' width={100} height={100} className='rounded-lg shadow-lg' />
+                                </a>
                                 <p className='p-2 font-semibold'>Solar Panel Kit</p>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <img src={Remote} alt='Remote' width={100} height={100} className='rounded-lg shadow-lg' />
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Remote?&type=phone_number&app_absent=0">
+                                    <img src={Remote} alt='Remote' width={100} height={100} className='rounded-lg shadow-lg' />
+                                </a>
                                 <p className='p-2 font-semibold'>Remote</p>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <img src={Stabilizer} alt='Stabilizer' width={100} height={100} className='rounded-lg shadow-lg' />
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Stabilizer?&type=phone_number&app_absent=0">
+                                    <img src={Stabilizer} alt='Stabilizer' width={100} height={100} className='rounded-lg shadow-lg' />
+                                </a>
                                 <p className='p-2 font-semibold'>Stabilizer</p>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <img src={WM} alt='Wall-Mount' width={100} height={100} className='rounded-lg shadow-lg' />
+                                <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about TV and A/C mount?&type=phone_number&app_absent=0">
+                                    <img src={WM} alt='Wall-Mount' width={100} height={100} className='rounded-lg shadow-lg' />
+                                </a>
                                 <p className='p-2 font-semibold'>TV & A/C Mount</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -153,10 +183,19 @@ const Electronics = () => {
                 <p className='text-3xl font-semibold flex items-center justify-center m-4 md:text-4xl p-4'>Dishes</p>
                 <div className='p-4 rounded-lg shadow-lg gap-4 overflow-x-auto' ref={(element) => setScroll(element)}>
                     <div className='flex items-center '>
-                        <img src={SD} width={180} height={100} alt="/" />
-                        <img src={TSk} width={180} height={100} alt="/" />
-                        <img src={Airtel} width={180} height={100} alt="/" />
-                        <img src={D2H} width={180} height={100} alt="/" /></div></div>
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Sun direct DTH connection?&type=phone_number&app_absent=0">
+
+                            <img src={SD} width={180} height={100} alt="/" />
+                        </a>
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Tata play DTH connection?&type=phone_number&app_absent=0">
+                            <img src={TSk} width={180} height={100} alt="/" />
+                        </a>
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Airtel DTH connection?&type=phone_number&app_absent=0">
+                            <img src={Airtel} width={180} height={100} alt="/" />
+                        </a>
+                        <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Dish TV D2H DTH connection?&type=phone_number&app_absent=0">
+                            <img src={D2H} width={180} height={100} alt="/" />
+                        </a></div></div>
             </div>
             <div className='sticky bottom-0 right-0 p-3 flex justify-end'>
                 <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text&type=phone_number&app_absent=0" className="bg-green-500 p-3 rounded-full">
