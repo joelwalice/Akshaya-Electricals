@@ -24,7 +24,7 @@ const Home = () => {
         } else {
           setScrollDir(scrollDir * -1)
         }
-      }, 20)
+      }, 30)
       return () => clearInterval(scrollInterval)
     }
   }, [scroll, scrollDir])
@@ -62,19 +62,6 @@ const Home = () => {
     <>
       <div className='flex flex-col items-center justify-center gap-10'>
         <img src={HPage} alt="Home Page" className='w-screen' />
-        <div className='grid grid-cols-1 sm:grid-cols-2 flex items-center justify-between p-4 gap-5 w-screen'>
-          <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=How to claim the Diwali's Lucky Draw Coupon? &type=phone_number&app_absent=0">
-            <img src={Pamp} alt="/" className='rounded-lg md:m-6 shadow-gray-700 shadow-lg' />
-          </a>
-          <div className='flex flex-col items-center p-8 w-full'>
-            <h1 className='hidden md:flex text-4xl font-semibold space-between leading-[50px] justify-center '>
-              Get a chance to win a  lucky draw contest by grabbing coupon when you purchase products worth ₹10,000 or more this Diwali and receive surprise gifts.
-            </h1>
-            <h1 className='flex md:hidden text-2xl font-semibold space-between justify-center '>
-              Get a chance to win a  lucky draw contest by grabbing coupon when you purchase products worth ₹10,000 or more this Diwali and receive surprise gifts.
-            </h1>
-          </div>
-        </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 flex items-center rounded-lg justify-between gap-4 w-screen'>
           <img src={p6} alt='/' className='w-full' />
           <div className="w-full m-auto relative group">
@@ -90,15 +77,34 @@ const Home = () => {
                 <BsChevronRight onClick={nextSlide} size={20} />
               </div>
             </div>
-            <div className='flex md:hidden flex-col items-center justify-center'>
+            </div>
+            {/* <div className='flex md:hidden flex-col items-center justify-center'>
               <div className='p-4 rounded-lg shadow-lg gap-4 overflow-x-auto' ref={(element) => setScroll(element)}>
                 <div className='flex md:hidden items-center '>
-                  <img src={pp1} width={180} height={100} alt="/" />
-                  <img src={pp2} width={180} height={100} alt="/" />
-                  <img src={pp3} width={180} height={100} alt="/" />
-                  <img src={pp4} width={180} height={100} alt="/" />
+                  <img src={pp1} width={780} height={600} alt="/" />
+                  <img src={pp2} width={780} height={600} alt="/" />
+                  <img src={pp3} width={780} height={600} alt="/" />
+                  <img src={pp4} width={780} height={600} alt="/" />
                 </div></div>
+            </div> */}
+            <div className='image-carousel md:hidden lg:hidden'>
+              <button onClick={prevSlide} disabled={currentSlide === 0}>Backward</button>
+              <img src={images[currentSlide]} alt='/' />
+              <button onClick={nextSlide} disabled={currentSlide === images.length - 1}>Forward</button>
             </div>
+          
+        </div>
+        <div className='grid grid-cols-1 sm:grid-cols-2 flex items-center justify-between p-4 gap-5 w-screen'>
+          <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=How to claim the Diwali's Lucky Draw Coupon? &type=phone_number&app_absent=0">
+            <img src={Pamp} alt="/" className='rounded-lg md:m-6 shadow-gray-700 shadow-lg' />
+          </a>
+          <div className='flex flex-col items-center p-8 w-full'>
+            <h1 className='hidden md:flex text-4xl font-semibold space-between leading-[50px] justify-center '>
+              Get a chance to win a  lucky draw contest by grabbing coupon when you purchase products worth ₹10,000 or more this Diwali and receive surprise gifts.
+            </h1>
+            <h1 className='flex md:hidden text-2xl font-semibold space-between justify-center '>
+              Get a chance to win a  lucky draw contest by grabbing coupon when you purchase products worth ₹10,000 or more this Diwali and receive surprise gifts.
+            </h1>
           </div>
         </div>
       </div>
