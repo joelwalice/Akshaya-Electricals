@@ -1,98 +1,22 @@
 import React, { useState, useEffect } from 'react'
 import HPage from "../assets/css/page-1.png"
 import Pamp from "../assets/css/pamp1.png"
-import pp1 from "../assets/css/1.png"
-import pp2 from "../assets/css/2.png"
-import pp3 from "../assets/css/3.png"
-import pp4 from "../assets/css/4.png"
-import p6 from "../assets/css/pamp6.gif"
-import { BsChevronRight, BsChevronLeft } from 'react-icons/bs';
+import p6 from "../assets/css/pam6.gif"
 
 const Home = () => {
-  const [scroll, setScroll] = useState(null)
-  const [scrollPosition, setScrollPosition] = useState(0)
-  const [scrollDir, setScrollDir] = useState(-1)
-  useEffect(() => {
-    if (scroll) {
-      const scrollInterval = setInterval(() => {
-        if (scroll.scrollLeft < scroll.scrollWidth - scroll.offsetWidth && scrollDir === 1) {
-          scroll.scrollLeft += 1
-          setScrollPosition(scroll.scrollLeft)
-        } else if (scroll.scrollLeft > 0 && scrollDir === -1) {
-          scroll.scrollLeft -= 1;
-          setScrollPosition(scroll.scrollLeft)
-        } else {
-          setScrollDir(scrollDir * -1)
-        }
-      }, 30)
-      return () => clearInterval(scrollInterval)
-    }
-  }, [scroll, scrollDir])
-
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const bgImageStyle = {
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-  };
-  const images = [
-    pp1,
-    pp2,
-    pp3,
-    pp4
-  ]
-  const imagee = [
-    pp1,
-    pp2,
-    pp3,
-    pp4
-  ]
-  const cards = [1, 1, 1, 1]
-
-  const prevSlide = () => {
-    const newIndex = (currentSlide - 1 + cards.length) % cards.length;
-    setCurrentSlide(newIndex);
-  };
-
-  const nextSlide = () => {
-    const newIndex = (currentSlide + 1) % cards.length;
-    setCurrentSlide(newIndex);
-  };
+  
   return (
     <>
       <div className='flex flex-col items-center justify-center gap-10'>
         <img src={HPage} alt="Home Page" className='w-screen' />
         <div className='grid grid-cols-1 sm:grid-cols-2 flex items-center rounded-lg justify-between gap-4 w-screen'>
           <img src={p6} alt='/' className='w-full' />
-          <div className="w-full m-auto relative group">
-            <div style={{ ...bgImageStyle, backgroundImage: `url(${images[currentSlide % images.length]})` }} className="hidden md:flex image relative w-[600px] h-[600px]">
-              <div
-                className={`hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-purple-500 text-white cursor-pointer`}
-              >
-                <BsChevronLeft onClick={prevSlide} size={20} />
-              </div>
-              <div
-                className={`hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-purple-500 text-white cursor-pointer`}
-              >
-                <BsChevronRight onClick={nextSlide} size={20} />
-              </div>
-            </div>
-            </div>
-            {/* <div className='flex md:hidden flex-col items-center justify-center'>
-              <div className='p-4 rounded-lg shadow-lg gap-4 overflow-x-auto' ref={(element) => setScroll(element)}>
-                <div className='flex md:hidden items-center '>
-                  <img src={pp1} width={780} height={600} alt="/" />
-                  <img src={pp2} width={780} height={600} alt="/" />
-                  <img src={pp3} width={780} height={600} alt="/" />
-                  <img src={pp4} width={780} height={600} alt="/" />
-                </div></div>
-            </div> */}
-            <div className='image-carousel md:hidden lg:hidden'>
-              <button onClick={prevSlide} disabled={currentSlide === 0}>Backward</button>
-              <img src={images[currentSlide]} alt='/' />
-              <button onClick={nextSlide} disabled={currentSlide === images.length - 1}>Forward</button>
-            </div>
-          
+  
+            <div className='flex lg:hidden items-center justify-center '><iframe src="https://drive.google.com/file/d/1r8TJu_Iy-YM0T8R5a0zbaLYe_p261nqd/preview" allow="autoplay"  className='min-w-[300px] h-[650px] px-4'></iframe>
+          </div> 
+          <div className='hidden lg:flex items-center justify-center '><iframe src="https://drive.google.com/file/d/1r8TJu_Iy-YM0T8R5a0zbaLYe_p261nqd/preview" allow="autoplay"  className='min-w-[500px] h-[650px] px-4'></iframe>
+          </div>        
+            
         </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 flex items-center justify-between p-4 gap-5 w-screen'>
           <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=How to claim the Diwali's Lucky Draw Coupon? &type=phone_number&app_absent=0">
