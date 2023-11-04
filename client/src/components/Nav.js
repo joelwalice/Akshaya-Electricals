@@ -46,10 +46,10 @@ const Nav = () => {
             </div>
         </div>
       </div> }
-      <div className='flex items-center justify-between p-2 bg-[#6d116b]'>
+      <div className='flex items-center justify-between p-3 bg-[#6d116b]'>
         <div className='flex items-center justify-center' >
           <Link to="/">
-            <img src={Logo} alt="logo" className='max-w-[200px]'/>
+            <img src={Logo} alt="logo" className='max-w-[230px]'/>
           </Link>
         </div>
         <div className='hidden md:flex items-center justify-center text-xl gap-5 mr-4'>
