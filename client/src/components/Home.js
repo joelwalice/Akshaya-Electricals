@@ -12,9 +12,9 @@ const Home = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 flex items-center rounded-lg justify-between gap-4 w-screen'>
           <img src={p6} alt='/' className='w-full' />
   
-            <div className='flex lg:hidden items-center justify-center '><iframe src="https://drive.google.com/file/d/1r8TJu_Iy-YM0T8R5a0zbaLYe_p261nqd/preview" sandbox="allow-same-origin allow-scripts" allow="autoplay"  className='min-w-[300px] h-[650px] px-4'></iframe>
+            <div className='flex lg:hidden items-center justify-center '><iframe src="https://drive.google.com/file/d/1r8TJu_Iy-YM0T8R5a0zbaLYe_p261nqd/preview" sandbox="allow-forms allow-same-origin allow-scripts" allow="autoplay"  className='min-w-[300px] h-[650px] px-4'></iframe>
           </div> 
-          <div className='hidden lg:flex items-center justify-center '><iframe src="https://drive.google.com/file/d/1r8TJu_Iy-YM0T8R5a0zbaLYe_p261nqd/preview" allow="autoplay"  className='min-w-[500px] h-[650px] px-4'></iframe>
+          <div className='hidden lg:flex items-center justify-center '><iframe src="https://drive.google.com/file/d/1r8TJu_Iy-YM0T8R5a0zbaLYe_p261nqd/preview" sandbox="allow-forms allow-same-origin allow-scripts" allow="autoplay"  className='min-w-[500px] h-[650px] px-4'></iframe>
           </div>        
             
         </div>
