@@ -2,19 +2,20 @@ import React, { useState, useEffect } from 'react'
 import HPage from "../assets/css/page-1.png"
 import Pamp from "../assets/css/pamp1.png"
 import p6 from "../assets/css/pam6.gif"
+import Carousel from './Carousel'
 
 const Home = () => {
   
   return (
     <>
       <div className='flex flex-col items-center justify-center gap-10'>
-        <img src={HPage} alt="Home Page" className='w-screen' />
+        <Carousel />
         <div className='grid grid-cols-1 sm:grid-cols-2 flex items-center rounded-lg justify-between gap-4 w-screen'>
           <img src={p6} alt='/' className='w-full' />
   
-            <div className='flex lg:hidden items-center justify-center '><iframe src="https://drive.google.com/file/d/1r8TJu_Iy-YM0T8R5a0zbaLYe_p261nqd/preview" sandbox="allow-forms allow-same-origin allow-scripts" allow="autoplay"  className='min-w-[300px] h-[650px] px-4'></iframe>
+            <div className='flex lg:hidden items-center justify-center '><iframe src="https://drive.google.com/file/d/1r8TJu_Iy-YM0T8R5a0zbaLYe_p261nqd/preview" sandbox="allow-forms allow-scripts" allow="autoplay"  className='min-w-[300px] h-[650px] px-4'></iframe>
           </div> 
-          <div className='hidden lg:flex items-center justify-center '><iframe src="https://drive.google.com/file/d/1r8TJu_Iy-YM0T8R5a0zbaLYe_p261nqd/preview" sandbox="allow-forms allow-same-origin allow-scripts" allow="autoplay"  className='min-w-[500px] h-[650px] px-4'></iframe>
+          <div className='hidden lg:flex items-center justify-center '><iframe src="https://drive.google.com/file/d/1r8TJu_Iy-YM0T8R5a0zbaLYe_p261nqd/preview" sandbox="allow-forms allow-scripts" allow="autoplay"  className='min-w-[500px] h-[650px] px-4'></iframe>
           </div>        
             
         </div>
