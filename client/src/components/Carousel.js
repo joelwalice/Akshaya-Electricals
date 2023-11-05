@@ -14,20 +14,20 @@ const Carousel = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    {p: poster8, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=&type=How to claim this coupon?phone_number&app_absent=0"},
-    {p: poster1, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=&type=Want to know more about this offer?phone_number&app_absent=0"},
-    {p: poster2, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=&type=Want more information about Buy 1 Get 1 Android LED TV offer?phone_number&app_absent=0"},
-    {p: poster3, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=&type=Want to know more METZ Google TV offer?phone_number&app_absent=0"},
-    {p: poster4, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=&type=Want more information about Voltas beko offer?phone_number&app_absent=0"},
-    {p: poster5, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=&type=Want to know more about REPOSE matress offer?phone_number&app_absent=0"},
-    {p: poster6, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about RECLINER sofa set offer?&type=phone_number&app_absent=0"},
-    {p: poster7, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this mega offer?&type=phone_number&app_absent=0"}
+    poster8,
+    poster1,
+    poster2,
+    poster3,
+    poster4,
+    poster5,
+    poster6,
+    poster7
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 3000); // Change image every 3 seconds
+    }, 5000); // Change image every 3 seconds
 
     return () => clearInterval(interval);
   }, [images.length]);
@@ -41,34 +41,30 @@ const Carousel = () => {
   }
 
   return (
-    <div className="w-full relative">
+    <div className="relative w-full">
+      <div className='overflow-hidden'>
       <div className="flex transition-transform duration-500" style={{ transform: `translateX(-${currentImage * 100}%)` }}>
-
-
         {images.map((image, index) => (
           <div key={index} className="w-full flex-shrink-0">
-            <a href={image.a}>
-              <img src={image.p} alt={`Image ${index + 1}`} className="w-full h-full object-cover" />
-            </a>
+            <img src={image} alt={`Image ${index + 1}`} className="w-full h-full object-cover" />
           </div>
         ))}
       </div>
-      <button onClick={handlePrev} className="absolute top-1/2 left-4 transform -translate-y-1/2 border-none bg-gray-800 w-10 text-black p-2 rounded-full opacity-75 hover:opacity-100 bg-white hidden md:block">
+      <button onClick={handlePrev} className="absolute top-1/2 left-4 transform -translate-y-1/2 border-none bg-white w-10 text-black p-2 rounded-full opacity-75 hover:opacity-100 bg-white hidden md:block">
         &lt;
       </button>
-      <button onClick={handleNext} className="absolute top-1/2 right-4 transform -translate-y-1/2 border-none bg-gray-800 w-10 text-black p-2 rounded-full opacity-75 hover:opacity-100 bg-white hidden md:block">
+      <button onClick={handleNext} className="absolute top-1/2 right-4 transform -translate-y-1/2 border-none bg-white w-10 text-black p-2 rounded-full opacity-75 hover:opacity-100 bg-white hidden md:block">
         &gt;
       </button>
-      <button onClick={handlePrev} className="absolute top-1/2 left-4 transform -translate-y-1/2 border-none bg-gray-800 w-10 text-black p-2 rounded-full opacity-75 hover:opacity-100 bg-white block md:hidden">
+      <button onClick={handlePrev} className="absolute top-1/2 left-4 transform -translate-y-1/2 border-none bg-white w-10 text-black p-2 rounded-full opacity-75 hover:opacity-100 bg-white block md:hidden">
         &lt;
       </button>
-      <button onClick={handleNext} className="absolute top-1/2 right-4 transform -translate-y-1/2 border-none bg-gray-800 w-10 text-black p-2 rounded-full opacity-75 hover:opacity-100 bg-white block md:hidden">
+      <button onClick={handleNext} className="absolute top-1/2 right-4 transform -translate-y-1/2 border-none bg-white w-10 text-black p-2 rounded-full opacity-75 hover:opacity-100 bg-white block md:hidden">
         &gt;
       </button>
+    </div>
     </div>
   );
 }
 
 export default Carousel;
-
-
