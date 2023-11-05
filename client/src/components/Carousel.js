@@ -1,9 +1,33 @@
+import React, { useState, useEffect } from 'react';
+import poster1 from "../assets/css/Poster (1).png"
+import poster2 from "../assets/css/Poster (2).png"
+import poster3 from "../assets/css/Poster (3).png"
+import poster4 from "../assets/css/Poster (4).png"
+import poster5 from "../assets/css/Poster (5).png"
+import poster6 from "../assets/css/Poster (6).png"
+import poster7 from "../assets/css/Poster (7).png"
+import poster8 from "../assets/css/Poster (8).png"
+
+
+
+const Carousel = () => {
+  const [currentImage, setCurrentImage] = useState(0);
+
+  const images = [
+    {p: poster8, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=&type=How to claim this coupon?phone_number&app_absent=0"},
+    {p: poster1, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=&type=Want to know more about this offer?phone_number&app_absent=0"},
+    {p: poster2, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=&type=Want more information about Buy 1 Get 1 Android LED TV offer?phone_number&app_absent=0"},
+    {p: poster3, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=&type=Want to know more METZ Google TV offer?phone_number&app_absent=0"},
+    {p: poster4, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=&type=Want more information about Voltas beko offer?phone_number&app_absent=0"},
+    {p: poster5, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=&type=Want to know more about REPOSE matress offer?phone_number&app_absent=0"},
+    {p: poster6, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about RECLINER sofa set offer?&type=phone_number&app_absent=0"},
+    {p: poster7, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this mega offer?&type=phone_number&app_absent=0"}
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
+    }, 3000); // Change image every 3 seconds
 
     return () => clearInterval(interval);
   }, [images.length]);
@@ -46,3 +70,5 @@
 }
 
 export default Carousel;
+
+
