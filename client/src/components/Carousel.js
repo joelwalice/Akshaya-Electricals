@@ -14,14 +14,14 @@ const Carousel = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    poster8,
-    poster1,
-    poster2,
-    poster3,
-    poster4,
-    poster5,
-    poster6,
-    poster7
+    {p: poster8, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=How to claim this coupon?&type=phone_number&app_absent=0"},
+    {p: poster1, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this offer?&type=phone_number&app_absent=0"},
+    {p: poster2, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Buy 1 Get 1 Android LED TV offer?&type=phone_number&app_absent=0"},
+    {p: poster3, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more METZ Google TV offer?&type=phone_number&app_absent=0"},
+    {p: poster4, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Voltas beko offer?&type=phone_number&app_absent=0"},
+    {p: poster5, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about REPOSE matress offer?&type=phone_number&app_absent=0"},
+    {p: poster6, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about RECLINER sofa set offer?&type=phone_number&app_absent=0"},
+    {p: poster7, a: "https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this mega offer?&type=phone_number&app_absent=0"}
   ];
 
   useEffect(() => {
@@ -46,7 +46,9 @@ const Carousel = () => {
       <div className="flex transition-transform duration-500" style={{ transform: `translateX(-${currentImage * 100}%)` }}>
         {images.map((image, index) => (
           <div key={index} className="w-full flex-shrink-0">
-            <img src={image} alt={`Image ${index + 1}`} className="w-full h-full object-cover" />
+            <a href={image.a}>
+            <img src={image.p} alt={`Image ${index + 1}`} className="w-full h-full object-cover" />
+            </a>
           </div>
         ))}
       </div>
