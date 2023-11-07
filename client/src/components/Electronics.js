@@ -19,6 +19,7 @@ import TSk from '../assets/css/tatas.png'
 import SD from '../assets/css/sund.png'
 import D2H from '../assets/css/d2h.png'
 import Airtel from '../assets/css/airtel.png'
+import { Helmet } from 'react-helmet-async'
 
 const Electronics = () => {
     const [scroll, setScroll] = useState(null)
@@ -43,6 +44,20 @@ const Electronics = () => {
 
     return (
         <div className=''>
+            <Helmet>
+                <title>Electronics Page</title>
+                <meta name="description" content="This is a description of my page" />
+                <meta name="keywords" content="react, meta tags, seo" />
+                <meta name="author" content="Your Name" />
+                <meta property="og:title" content="My Page Title" />
+                <meta property="og:description" content="This is a description of my page" />
+                <meta property="og:image" content="https://example.com/image.jpg" />
+                <meta property="og:url" content="https://example.com/my-page" />
+                <meta name="twitter:title" content="My Page Title" />
+                <meta name="twitter:description" content="This is a description of my page" />
+                <meta name="twitter:image" content="https://example.com/image.jpg" />
+                <meta name="twitter:card" content="summary_large_image" />
+            </Helmet>
             <div className='hidden md:flex items-center relative'>
                 <img src={elect} alt='Electronics' className="max-w-[1000px] max-h-[200px]" width={2000} />
                 <p className='font-semibold tracking-tighter flex items-center justify-center text-7xl absolute right-10'>Akshaya Electronics</p>
@@ -184,18 +199,18 @@ const Electronics = () => {
                 <div className='p-4 rounded-lg shadow-lg gap-4 overflow-x-auto' ref={(element) => setScroll(element)}>
                     <div className='flex items-center '>
                         {/* <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Sun direct DTH connection?&type=phone_number&app_absent=0"> */}
-                            <img src={SD} width={180} height={100} alt="/" />
+                        <img src={SD} width={180} height={100} alt="/" />
                         {/* </a> */}
                         {/* <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Tata play DTH connection?&type=phone_number&app_absent=0"> */}
-                            <img src={TSk} width={180} height={100} alt="/" />
+                        <img src={TSk} width={180} height={100} alt="/" />
                         {/* </a> */}
                         {/* <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Airtel DTH connection?&type=phone_number&app_absent=0"> */}
-                            <img src={Airtel} width={180} height={100} alt="/" />
+                        <img src={Airtel} width={180} height={100} alt="/" />
                         {/* </a> */}
                         {/* <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want more information about Dish TV D2H DTH connection?&type=phone_number&app_absent=0"> */}
-                            <img src={D2H} width={180} height={100} alt="/" />
+                        <img src={D2H} width={180} height={100} alt="/" />
                         {/* </a> */}
-                        </div></div>
+                    </div></div>
             </div>
             <div className='sticky bottom-0 right-0 p-3 flex justify-end'>
                 <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text&type=phone_number&app_absent=0" className="bg-green-500 p-3 rounded-full">

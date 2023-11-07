@@ -1,10 +1,25 @@
 import React from 'react'
 import home from '../assets/css/home.jpg'
 import electronics from '../assets/css/electronics.jpg'
+import { Helmet } from 'react-helmet-async'
 
 const Branch = () => {
   return (
     <div>
+      <Helmet>
+        <title>Branches</title>
+        <meta name="description" content="This is a description of my page" />
+        <meta name="keywords" content="react, meta tags, seo" />
+        <meta name="author" content="Your Name" />
+        <meta property="og:title" content="My Page Title" />
+        <meta property="og:description" content="This is a description of my page" />
+        <meta property="og:image" content="https://example.com/image.jpg" />
+        <meta property="og:url" content="https://example.com/my-page" />
+        <meta name="twitter:title" content="My Page Title" />
+        <meta name="twitter:description" content="This is a description of my page" />
+        <meta name="twitter:image" content="https://example.com/image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <h2 className='p-4 text-4xl md:text-5xl font-semibold flex items-center justify-center'>Our Branches</h2>
       <div className=' mt-4 p-4 grid grid-cols-1 sm:grid-cols-2 gap-[100px] items-center justify-center mb-10'>
         <div className='hidden md:flex flex-col items-center justify-center relative'>

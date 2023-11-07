@@ -1,12 +1,27 @@
 import React, { useState } from 'react'
 import founder from '../assets/css/founder.jpg'
 import bni from '../assets/css/bni_logo.png'
+import { Helmet } from 'react-helmet-async'
 
 const About = () => {
   const [more, setMore] = useState(false)
   const [less, setLess] = useState(true)
   return (
     <div>
+      <Helmet>
+        <title>About Page</title>
+        <meta name="description" content="This is a description of my page" />
+        <meta name="keywords" content="react, meta tags, seo" />
+        <meta name="author" content="Your Name" />
+        <meta property="og:title" content="My Page Title" />
+        <meta property="og:description" content="This is a description of my page" />
+        <meta property="og:image" content="https://example.com/image.jpg" />
+        <meta property="og:url" content="https://example.com/my-page" />
+        <meta name="twitter:title" content="My Page Title" />
+        <meta name="twitter:description" content="This is a description of my page" />
+        <meta name="twitter:image" content="https://example.com/image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <div className='p-4 m-4 mb-auto'>
         <h1 className='text-4xl md:text-5xl font-semibold'>About us</h1>
         <div className='hidden md:block'>

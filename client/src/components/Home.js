@@ -3,11 +3,26 @@ import HPage from "../assets/css/page-1.png"
 import Pamp from "../assets/css/pamp1.png"
 import p6 from "../assets/css/pam6.gif"
 import Carousel from './Carousel'
+import { Helmet } from 'react-helmet-async'
 
 const Home = () => {
   
   return (
     <>
+      <Helmet>
+        <title>Home Page</title>
+        <meta name="description" content="This is a description of my page" />
+        <meta name="keywords" content="react, meta tags, seo" />
+        <meta name="author" content="Your Name" />
+        <meta property="og:title" content="My Page Title" />
+        <meta property="og:description" content="This is a description of my page" />
+        <meta property="og:image" content="https://example.com/image.jpg" />
+        <meta property="og:url" content="https://example.com/my-page" />
+        <meta name="twitter:title" content="My Page Title" />
+        <meta name="twitter:description" content="This is a description of my page" />
+        <meta name="twitter:image" content="https://example.com/image.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Helmet>
       <div className='flex flex-col items-center justify-center gap-10'>
         <Carousel />
         <div className='grid grid-cols-1 sm:grid-cols-2 flex items-center rounded-lg justify-between gap-4 w-screen'>
