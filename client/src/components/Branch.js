@@ -41,7 +41,7 @@ const Branch = () => {
           </a>
         </div>
         <div className='md:hidden flex flex-col items-center justify-center'>
-          <div className='opacity-0 bg-black/50 rounded-lg hover:opacity-100 tranisition delay-75 duration-200 ease-in-out w-[300px] h-[200px] absolute top-[210px] flex items-center justify-center my-auto gap-2 mx-auto'>
+          <div className='opacity-0 bg-black/50 rounded-lg hover:opacity-100 tranisition delay-75 duration-200 ease-in-out w-[300px] h-[200px] absolute top-[200px] flex items-center justify-center my-auto gap-2 mx-auto'>
             <a href='https://g.co/kgs/FToHVv' target='_blank'><button className='border-1 bg-white p-2 border-white text-[#5a116b] rounded-lg font-semibold'>
               <img width="43" height="43" src="https://img.icons8.com/ios-filled/100/5a116b/marker.png" alt="marker" />
             </button></a>
