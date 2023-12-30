@@ -29,7 +29,7 @@ const Home = () => {
         <meta name="twitter:image" content="https://example.com/image.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
-      <div className='flex flex-col justify-center gap-10'>
+      <div className='flex flex-col items-center justify-center gap-10'>
         {/* <Carousel /> */}
         {/* <div className='grid grid-cols-1 sm:grid-cols-2 flex items-center rounded-lg justify-between gap-4 w-screen'>
           <img src={p6} alt='/' className='w-full' />
@@ -54,38 +54,39 @@ const Home = () => {
           </div>
         </div> */}
         <div>
-        <a href="https://wa.me/919600957373?text=டும்%20டும்%20மேள%20ஆப்பர்....%20%0A%0A%20உங்கள்%20அக்ஷயா%20ஹோம்%20அப்ளையன்ஸ்-யில்%20%0A%0A%20மொத்தம்%2025%20கல்யாண%20சீர்வரிசை%20பொருட்கள்%20வெறும்%20ருபாய்.100001/-%20மட்டுமே...%0A%0A%20%20%20சீர்வரிசை%20பொருட்கள்%20%0A%20-----------------------------%0A%20மர%20கட்டில்%20%2075*%2060%20(தேக்கு)%20%20-%201%0A%20மெத்தை%20%2075*60%20-%201%0A%20மெத்தை%20விரிப்பு%20-%201%20%20%20%20%0A%20தலையணை%20-%202%0A%20மர%20பீரோ%20-%201%0A%20ட்ரெஸ்ஸிங்%20டேபிள்%20+%20%20ஸ்டூல்%20-%202%0A%20PREETHI%20/%20BUTTERFLY%20மிக்ஸி%20-%201%0A%20BUTTERFLY%20கிரைண்டர்%20-%201%0A%203L,%205L,%207.5L%20குக்கர்%20-%203%0A%20டைனிங்%20டேபிள்%20+%204%20CHAIRS%20-%205%0A%20PIGEON%203%20BURNER%20அடுப்பு%20+%20(HOSE%20,%20LIGHTER%20,%20CYLINDER%20STAND)%20-%202%0A%20டேபிள்%20பேன்%20-%201%0A%20வாஷிங்%20மெஷின்%20டாப்%20லோடு-%201%0A%20பிரிட்ஜ்%20-1%0A%20%2032%20INCH%20ANDROID%20LED%20TV%20-%201%0A%20காமாட்சி%20விளக்கு%20-%201%0A%20%0A%20தொடர்புக்கு%20:%209865974107%0A%20%0A%20மின்னஞ்சல்%20-%20akshayahomeappliancesathy@gmail.com%0A%20%0A%20Instagram:%20[akshaya_home_appliances](https://www.instagram.com/akshaya_home_appliances?igsh=OXk3dTR3MDVzcmI1)%0A%20%0A%20Website:%20[www.akshayahomeappliances.in](https://www.akshayahomeappliances.in)" target="_blank">
-            <img src={HPage} alt='Home page' className='w-full h-full rounded-lg' />
+          <a href="https://wa.me/919600957373?text=டும்%20டும்%20மேள%20ஆப்பர்....%20%0A%0A%20உங்கள்%20அக்ஷயா%20ஹோம்%20அப்ளையன்ஸ்-யில்%20%0A%0A%20மொத்தம்%2025%20கல்யாண%20சீர்வரிசை%20பொருட்கள்%20வெறும்%20ருபாய்.100001/-%20மட்டுமே...%0A%0A%20%20%20சீர்வரிசை%20பொருட்கள்%20%0A%20-----------------------------%0A%20மர%20கட்டில்%20%2075*%2060%20(தேக்கு)%20%20-%201%0A%20மெத்தை%20%2075*60%20-%201%0A%20மெத்தை%20விரிப்பு%20-%201%20%20%20%20%0A%20தலையணை%20-%202%0A%20மர%20பீரோ%20-%201%0A%20ட்ரெஸ்ஸிங்%20டேபிள்%20+%20%20ஸ்டூல்%20-%202%0A%20PREETHI%20/%20BUTTERFLY%20மிக்ஸி%20-%201%0A%20BUTTERFLY%20கிரைண்டர்%20-%201%0A%203L,%205L,%207.5L%20குக்கர்%20-%203%0A%20டைனிங்%20டேபிள்%20+%204%20CHAIRS%20-%205%0A%20PIGEON%203%20BURNER%20அடுப்பு%20+%20(HOSE%20,%20LIGHTER%20,%20CYLINDER%20STAND)%20-%202%0A%20டேபிள்%20பேன்%20-%201%0A%20வாஷிங்%20மெஷின்%20டாப்%20லோடு-%201%0A%20பிரிட்ஜ்%20-1%0A%20%2032%20INCH%20ANDROID%20LED%20TV%20-%201%0A%20காமாட்சி%20விளக்கு%20-%201%0A%20%0A%20தொடர்புக்கு%20:%209865974107%0A%20%0A%20மின்னஞ்சல்%20-%20akshayahomeappliancesathy@gmail.com%0A%20%0A%20Instagram:%20[akshaya_home_appliances](https://www.instagram.com/akshaya_home_appliances?igsh=OXk3dTR3MDVzcmI1)%0A%20%0A%20Website:%20[www.akshayahomeappliances.in](https://www.akshayahomeappliances.in)" target="_blank">
+            <img src={HPage} alt='Home page' className='w-full h-full rounded-lg' loading='lazy' />
           </a>
         </div>
         <div>
-          <h1 className='md:text-5xl text-3xl font-500 px-5 italic flex items-start'>New Year Offers</h1>
+          <h1 className='md:text-5xl text-xl font-500 px-5 text-bold flex items-center justify-center'>New Year Offers - 2024</h1>
         </div>
         <div className='grid'>
           <div className='grid grid-cols-1 md:grid-cols-2 md:p-4 px-4 gap-8'>
             <a href="https://wa.me/919600957373?text=Celebrate%20this%20New%20Year%20with%20Akshaya%20Home%20Appliances%20discount%20offer%20-%20%0A%0A*Details*%0ACrompton%20Immersion%20Heater%20and%20more%20now%20at%20₹2024%20instead%20of%20₹5000.%20%0A%0AVisit%20[www.akshayahomeappliances.in](https://www.akshayahomeappliances.in)%20for%20more%20information.%0A%0A" target="_blank">
-              <img src={P3} alt='New year offer' className='rounded-lg' />
+              <img src={P3} alt='New year offer' className='rounded-lg' loading='lazy' />
             </a>
             <a href="https://wa.me/919600957373?text=Celebrate%20this%20New%20Year%20with%20Akshaya%20Home%20Appliances%20discount%20offer%20-%20%0A%0A*Details*%0ABAJAJ%203L%20INDUCTION%20BASE%20COOKER%20,%20TAWA%20%20CELLO%20HOT%20BOX%20now%20at%20₹2024%20instead%20of%20₹3800.%20%0A%0AVisit%20[www.akshayahomeappliances.in](https://www.akshayahomeappliances.in)%20for%20more%20information.%0A%0A" target="_blank">
-              <img src={P4} alt='New year offer' className='rounded-lg' />
+              <img src={P4} alt='New year offer' className='rounded-lg' loading='lazy' />
             </a>
           </div>
           <div className='grid md:grid-cols-2 md:p-4 px-4 gap-8'>
             <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this special offer?&typephone_number&app_absent=0">
-              <img src={P1} alt='New year offer' className='rounded-lg' />
+              <img src={P1} alt='New year offer' className='rounded-lg' loading='lazy' />
             </a>
             <a target="_blank" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this limited offer?&typephone_number&app_absent=0">
-              <img src={P2} alt='New year offer' className='rounded-lg' />
+              <img src={P2} alt='New year offer' className='rounded-lg' loading='lazy' />
             </a>
           </div>
         </div>
         <div>
-        <h1 className='md:text-6xl text-3xl font-500 px-5 italic flex items-start'>Our Diwali Prize Coupon winners</h1>
+        <h1 className='md:text-5xl font-500 px-5 text-bold flex items-center justify-center '>Our Diwali Prize Coupon winners - 2023</h1>
+          <h1 className='md:text-5xl text-xl font-500 px-5 text-bold flex items-center justify-center'></h1>
         </div>
         <div className='grid md:grid-cols-3 gap-10 md:p-4 px-4'>
-          <img src={DiwaliP1} alt='Diwali Ist prize winner' className='rounded-lg'/>
-          <img src={DiwaliP2} alt='Diwali IInd prize winner' className='rounded-lg'/>
-          <img src={DiwaliP3} alt='Diwali IIIrd prize winner' className='rounded-lg'/>
+          <img src={DiwaliP1} alt='Diwali Ist prize winner' className='rounded-lg' loading='lazy' />
+          <img src={DiwaliP2} alt='Diwali IInd prize winner' className='rounded-lg' loading='lazy' />
+          <img src={DiwaliP3} alt='Diwali IIIrd prize winner' className='rounded-lg' loading='lazy' />
         </div>
       </div>
       <div className='sticky bottom-0 right-0 p-3 flex justify-end'>
