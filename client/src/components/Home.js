@@ -59,7 +59,7 @@ const Home = () => {
           </a>
         </div>
         <div>
-          <h1 className='md:text-5xl text-xl font-500 px-5 text-bold flex items-center justify-center'>New Year Offers - 2024</h1>
+          <h1 className='md:text-5xl text-xl font-500 px-5 font-semibold flex items-center justify-center'>New Year Offers - 2024</h1>
         </div>
         <div className='grid'>
           <div className='grid grid-cols-1 md:grid-cols-2 md:p-4 px-4 gap-8'>
@@ -80,8 +80,7 @@ const Home = () => {
           </div>
         </div>
         <div>
-        <h1 className='md:text-5xl font-500 px-5 text-bold flex items-center justify-center '>Our Diwali Prize Coupon winners - 2023</h1>
-          <h1 className='md:text-5xl text-xl font-500 px-5 text-bold flex items-center justify-center'></h1>
+        <h1 className='md:text-5xl font-500 px-5 font-semibold flex items-center justify-center '>Our Diwali Prize Coupon winners - 2023</h1>
         </div>
         <div className='grid md:grid-cols-3 gap-10 md:p-4 px-4'>
           <img src={DiwaliP1} alt='Diwali Ist prize winner' className='rounded-lg' loading='lazy' />
