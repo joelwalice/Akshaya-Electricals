@@ -100,7 +100,7 @@ const Home = () => {
             </a>
             </div>
           </div>
-          <div className='p-8 px-8 mx-auto w-[225px] h-[225px]'>
+          <div className='p-8 px-8 mx-auto w-[225px] h-[225px] md:hidden'>
           <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this limited offer?&typephone_number&app_absent=0" className=''>
               <img src={P2} alt='New year offer 9' className='rounded-lg' loading='lazy' />
             </a>
