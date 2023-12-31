@@ -66,7 +66,7 @@ const Home = () => {
         <div>
           <h1 className='md:text-5xl text-xl font-500 px-5 font-semibold flex items-center justify-center'>New Year Offers - 2024</h1>
         </div>
-        <div className='grid'>
+        <div className=''>
           <div className='grid grid-cols-2 md:grid-cols-3 md:p-4 px-4 gap-8'>
 
             <a href="https://wa.me/919600957373?text=Want to know more about Sowbaghya 2 products combo new year offer" target="_blank" rel="noreferrer">
@@ -94,12 +94,16 @@ const Home = () => {
             <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this special offer?&typephone_number&app_absent=0">
               <img src={P1} alt='New year offer 8' className='rounded-lg' loading='lazy' />
             </a>
-            <div className='flex items-center justify-center'>
-
+            <div className='hidden md:block'>
             <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this limited offer?&typephone_number&app_absent=0" className='' style={{ textAlign: 'center' }}>
               <img src={P2} alt='New year offer 9' className='rounded-lg' style={{ maxWidth: '100%', height: 'auto', display: 'inline-block' }} loading='lazy' />
             </a>
             </div>
+          </div>
+          <div className='p-8 px-8 mx-auto w-[225px] h-[225px]'>
+          <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this limited offer?&typephone_number&app_absent=0" className=''>
+              <img src={P2} alt='New year offer 9' className='rounded-lg' loading='lazy' />
+            </a>
           </div>
         </div>
         <div>
