@@ -24,7 +24,7 @@ const Branch = () => {
       <div className=' mt-4 p-4 grid grid-cols-1 sm:grid-cols-2 gap-[100px] items-center justify-center mb-10'>
         <div className='hidden md:flex flex-col items-center justify-center relative'>
           <div className='opacity-0 bg-black/50 rounded-lg hover:opacity-100 tranisition delay-75 duration-200 ease-in-out w-[300px] h-[200px] absolute top-0 flex items-center justify-center my-auto gap-2 mx-auto'>
-            <a href='https://maps.app.goo.gl/p8vSm4RqMfZzFzJQA' target='_blank'><button className='border-0 bg-white p-2 border-white text-[#5a116b] rounded-lg font-semibold'>
+            <a href='https://g.co/kgs/FToHVv' target='_blank'><button className='border-0 bg-white p-2 border-white text-[#5a116b] rounded-lg font-semibold'>
               <img width="43" height="43" src="https://img.icons8.com/ios-filled/100/5a116b/marker.png" alt="marker" />
             </button></a>
             <a href='tel:7708715107'><button className='p-3 border-0 bg-white p-2 text-[#5a116b] rounded-lg font-semibold'>
@@ -41,8 +41,8 @@ const Branch = () => {
           </a>
         </div>
         <div className='md:hidden flex flex-col items-center justify-center'>
-          <div className='opacity-0 bg-black/50 rounded-lg hover:opacity-100 tranisition delay-75 duration-200 ease-in-out w-[300px] h-[200px] absolute top-[210px] flex items-center justify-center my-auto gap-2 mx-auto'>
-            <a href='https://maps.app.goo.gl/p8vSm4RqMfZzFzJQA' target='_blank'><button className='border-1 bg-white p-2 border-white text-[#5a116b] rounded-lg font-semibold'>
+          <div className='opacity-0 bg-black/50 rounded-lg hover:opacity-100 tranisition delay-75 duration-200 ease-in-out w-[300px] h-[200px] absolute top-[205px] flex items-center justify-center my-auto gap-2 mx-auto'>
+            <a href='https://g.co/kgs/FToHVv' target='_blank'><button className='border-1 bg-white p-2 border-white text-[#5a116b] rounded-lg font-semibold'>
               <img width="43" height="43" src="https://img.icons8.com/ios-filled/100/5a116b/marker.png" alt="marker" />
             </button></a>
             <a href='tel:7708715107'><button className='p-3 border-0 bg-white p-2 text-[#5a116b] rounded-lg font-semibold'>
@@ -60,7 +60,7 @@ const Branch = () => {
         </div>
         <div className='flex flex-col items-center justify-center relative'>
           <div className='opacity-0 rounded-lg bg-black/50 hover:opacity-100 tranisition delay-75 duration-200 ease-in-out w-[300px] h-[200px] absolute top-0 flex items-center justify-center my-auto gap-2 mx-auto'>
-            <a href='https://maps.app.goo.gl/p8vSm4RqMfZzFzJQA' target='_blank'>
+            <a href='https://g.co/kgs/64n28k' target='_blank'>
               <button className='border-1 bg-white p-2 border-white text-[#5a116b] rounded-lg font-semibold'>
                 <img width="43" height="43" src="https://img.icons8.com/ios-filled/100/5a116b/marker.png" alt="marker" />
               </button>
