@@ -16,6 +16,9 @@ import { Helmet } from 'react-helmet-async'
 import DiwaliP1 from "../assets/css/Diwali Prize winners/Prize 1.heic"
 import DiwaliP2 from "../assets/css/Diwali Prize winners/Prize 2.heic"
 import DiwaliP3 from "../assets/css/Diwali Prize winners/Prize 3.heic"
+import Pongal1 from '../assets/css/pongal1.png'
+import Pongal2 from '../assets/css/pongal2.png'
+import Pongal3 from '../assets/css/pongal3.png'
 const Home = () => {
 
   return (
@@ -64,6 +67,30 @@ const Home = () => {
           </a>
         </div>
         <div>
+          <h1 className='md:text-5xl text-xl font-500 px-5 font-semibold flex items-center justify-center'>Pongal Offers - 2024</h1>
+        </div>
+        <div className='flex items-center justify-center w-screen'>
+          <div className='flex items-center justify-center grid grid-cols-2 md:grid-cols-3 md:p-4 px-4 gap-8'>
+            <a href="https://wa.me/919600957373?text=Want to know more about Sowbaghya 3 products combo new year offer" target="_blank" rel="noreferrer">
+              <img src={Pongal1} alt='Pongal offers' className='rounded-lg' loading='lazy' />
+            </a>
+
+            <a href="https://wa.me/919600957373?text=Celebrate%20this%20New%20Year%20with%20Akshaya%20Home%20Appliances%20discount%20offer%20-%20%0A%0A*Details*%0ACrompton%20Immersion%20Heater%20and%20more%20now%20at%20₹2024%20instead%20of%20₹5000.%20%0A%0AVisit%20[www.akshayahomeappliances.in](https://www.akshayahomeappliances.in)%20for%20more%20information.%0A%0A" target="_blank" rel="noreferrer">
+              <img src={Pongal2} alt='Pongal offers' className='rounded-lg' loading='lazy' />
+            </a>
+            <div className='hidden md:block'>
+              <a target="_blank" rel="noreferrer" href="https://wa.me/919600957373?text=Celebrate%20this%20New%20Year%20with%20Akshaya%20Home%20Appliances%20discount%20offer%20-%20%0A%0A*Details*%0ABAJAJ%203L%20INDUCTION%20BASE%20COOKER%20,%20TAWA%20%20CELLO%20HOT%20BOX%20now%20at%20₹2024%20instead%20of%20₹3800.%20%0A%0AVisit%20[www.akshayahomeappliances.in](https://www.akshayahomeappliances.in)%20for%20more%20information.%0A%0A" className='' style={{ textAlign: 'center' }}>
+                <img src={Pongal3} alt='Pongal offers' className='rounded-lg' style={{ maxWidth: '100%', height: 'auto', display: 'inline-block' }} loading='lazy' />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className='p-2 px-2 mx-auto w-[200px] h-[200px] md:hidden'>
+          <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this limited offer?&typephone_number&app_absent=0" className=''>
+            <img src={Pongal3} alt='Pongal offers' className='rounded-lg' loading='lazy' />
+          </a>
+        </div>
+        <div>
           <h1 className='md:text-5xl text-xl font-500 px-5 font-semibold flex items-center justify-center'>New Year Offers - 2024</h1>
         </div>
         <div className=''>
@@ -95,13 +122,13 @@ const Home = () => {
               <img src={P1} alt='New year offer 8' className='rounded-lg' loading='lazy' />
             </a>
             <div className='hidden md:block'>
-            <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this limited offer?&typephone_number&app_absent=0" className='' style={{ textAlign: 'center' }}>
-              <img src={P2} alt='New year offer 9' className='rounded-lg' style={{ maxWidth: '100%', height: 'auto', display: 'inline-block' }} loading='lazy' />
-            </a>
+              <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this limited offer?&typephone_number&app_absent=0" className='' style={{ textAlign: 'center' }}>
+                <img src={P2} alt='New year offer 9' className='rounded-lg' style={{ maxWidth: '100%', height: 'auto', display: 'inline-block' }} loading='lazy' />
+              </a>
             </div>
           </div>
           <div className='p-8 px-8 mx-auto w-[225px] h-[225px] md:hidden'>
-          <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this limited offer?&typephone_number&app_absent=0" className=''>
+            <a target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send/?phone=%2B919600957373&text=Want to know more about this limited offer?&typephone_number&app_absent=0" className=''>
               <img src={P2} alt='New year offer 9' className='rounded-lg' loading='lazy' />
             </a>
           </div>
