@@ -67,12 +67,9 @@ const Home = () => {
           </div>
         </div> */}
 
-        <div>
-          <img src={cooking_main} alt='Cooking Contest' className='w-screen h-full rounded-lg' loading='lazy' />
-        </div>
-
-        <div>
-          <img src={price_pool} alt='Cooking Contest' className='w-screen h-full rounded-lg' loading='lazy' />
+        <div className='p-0 m-0'>
+          <img src={cooking_main} alt='Cooking Contest' className='w-screen h-full rounded-t-lg block' loading='lazy' />
+          <img src={price_pool} alt='Cooking Contest' className='w-screen h-full rounded-b-lg block' loading='lazy' />
         </div>
 
 
@@ -302,7 +299,7 @@ const Home = () => {
           href="https://docs.google.com/forms/d/e/1FAIpQLSfrAHSdctR-hKEUPytm7azlw0sfY6ceqN7IN07yT8VELMKc7Q/viewform?usp=dialog"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-yellow-400 text-black font-bold text-lg px-6 py-3 rounded-full shadow-lg border-4 border-dashed border-pink-600 animate-bounce hover:animate-none hover:bg-[#6d116b] hover:border-[#6d116b] hover:text-white transition-all duration-300"
+          className="bg-yellow-400 text-black font-bold text-lg px-6 py-3 text-center rounded-full shadow-lg border-4 border-dashed border-pink-600 animate-bounce hover:animate-none hover:bg-[#6d116b] hover:border-[#6d116b] hover:text-white transition-all duration-300"
         >
           🍛 Join the Super Chef Contest – Register Now!
         </a>
