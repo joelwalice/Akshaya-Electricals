@@ -12,8 +12,9 @@ import H2 from "../assets/css/New Year/HomePg (2).png";
 import H3 from "../assets/css/New Year/HomePg (3).png";
 import H4 from "../assets/css/New Year/HomePg (4).png";
 import H5 from "../assets/css/New Year/HomePg (5).png";
-import logo from "../assets/css/logo.png";
 import { Helmet } from 'react-helmet-async'
+import cooking_main from "../assets/css/cooking/main.png";
+import price_pool from "../assets/css/cooking/price_pool.png";
 import DiwaliP1 from "../assets/css/Diwali Prize winners/Prize 1.heic"
 import DiwaliP2 from "../assets/css/Diwali Prize winners/Prize 2.heic"
 import DiwaliP3 from "../assets/css/Diwali Prize winners/Prize 3.heic"
@@ -25,19 +26,22 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Home Page</title>
-        <meta name="description" content="This is a description of my page" />
-        <meta name="keywords" content="react, meta tags, seo" />
-        <meta name="author" content="Your Name" />
-        <meta property="og:title" content="Akshaya Home Appliances" />
-        <meta property="og:description" content="This is a description of my page" />
-        <meta property="og:image" content="https://akshayahomeappliances.in/assets/css/logo.png" />
-        <meta property="og:url" content="https://example.com/my-page" />
-        <meta name="twitter:title" content="My Page Title" />
-        <meta name="twitter:description" content="This is a description of my page" />
-        <meta name="twitter:image" content="https://example.com/image.jpg" />
+        <title>Akshaya Home Appliances</title>
+        <meta name="description" content="Best home appliances in Tamil Nadu. Special offers on kitchen, electronics and more!" />
+        <meta name="keywords" content="home appliances, akshaya, sathy, diwali offers, pongal, new year" />
+        <meta name="author" content="Akshaya Home Appliances" />
+
+        <meta property="og:title" content="Akshaya Home Appliances - Official Site" />
+        <meta property="og:description" content="Check out the latest Diwali and Pongal offers. Visit our store or shop online now!" />
+        <meta property="og:image" content="https://akshayahomeappliances.in/logo.png" />
+        <meta property="og:url" content="https://akshayahomeappliances.in/" />
+
+        <meta name="twitter:title" content="Akshaya Home Appliances - Official Site" />
+        <meta name="twitter:description" content="Check out our 2024 festival deals on home appliances!" />
+        <meta name="twitter:image" content="https://akshayahomeappliances.in/logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
+
       <div className='flex flex-col items-center justify-center gap-10'>
         {/* <Carousel /> */}
         {/* <div className='grid grid-cols-1 sm:grid-cols-2 flex items-center rounded-lg justify-between gap-4 w-screen'>
@@ -64,10 +68,14 @@ const Home = () => {
         </div> */}
 
         <div>
-          <a href="https://wa.me/919600957373?text=டும்%20டும்%20மேள%20ஆப்பர்....%20%0A%0A%20உங்கள்%20அக்ஷயா%20ஹோம்%20அப்ளையன்ஸ்-யில்%20%0A%0A%20மொத்தம்%2025%20கல்யாண%20சீர்வரிசை%20பொருட்கள்%20வெறும்%20ருபாய்.100001/-%20மட்டுமே...%0A%0A%20%20%20சீர்வரிசை%20பொருட்கள்%20%0A%20-----------------------------%0A%20மர%20கட்டில்%20%2075*%2060%20(தேக்கு)%20%20-%201%0A%20மெத்தை%20%2075*60%20-%201%0A%20மெத்தை%20விரிப்பு%20-%201%20%20%20%20%0A%20தலையணை%20-%202%0A%20மர%20பீரோ%20-%201%0A%20ட்ரெஸ்ஸிங்%20டேபிள்%20+%20%20ஸ்டூல்%20-%202%0A%20PREETHI%20/%20BUTTERFLY%20மிக்ஸி%20-%201%0A%20BUTTERFLY%20கிரைண்டர்%20-%201%0A%203L,%205L,%207.5L%20குக்கர்%20-%203%0A%20டைனிங்%20டேபிள்%20+%204%20CHAIRS%20-%205%0A%20PIGEON%203%20BURNER%20அடுப்பு%20+%20(HOSE%20,%20LIGHTER%20,%20CYLINDER%20STAND)%20-%202%0A%20டேபிள்%20பேன்%20-%201%0A%20வாஷிங்%20மெஷின்%20டாப்%20லோடு-%201%0A%20பிரிட்ஜ்%20-1%0A%20%2032%20INCH%20ANDROID%20LED%20TV%20-%201%0A%20காமாட்சி%20விளக்கு%20-%201%0A%20%0A%20தொடர்புக்கு%20:%209865974107%0A%20%0A%20மின்னஞ்சல்%20-%20akshayahomeappliancesathy@gmail.com%0A%20%0A%20Instagram:%20[akshaya_home_appliances](https://www.instagram.com/akshaya_home_appliances?igsh=OXk3dTR3MDVzcmI1)%0A%20%0A%20Website:%20[www.akshayahomeappliances.in](https://www.akshayahomeappliances.in)" target="_blank" rel="noreferrer">
-            <img src={HPage} alt='Home page' className='w-full h-full rounded-lg' loading='lazy' />
-          </a>
+          <img src={cooking_main} alt='Cooking Contest' className='w-screen h-full rounded-lg' loading='lazy' />
         </div>
+
+        <div>
+          <img src={price_pool} alt='Cooking Contest' className='w-screen h-full rounded-lg' loading='lazy' />
+        </div>
+
+
 
 
 
@@ -76,7 +84,7 @@ const Home = () => {
             <img src={HPage} alt='Home page' className='w-full h-full rounded-lg' loading='lazy' />
           </a>
         </div>
-        <div>
+        {/* <div>
           <h1 className='md:text-5xl text-xl font-500 px-5 font-semibold flex items-center justify-center'>Pongal Offers - 2024</h1>
         </div>
         <div className='flex items-center justify-center w-screen'>
@@ -142,7 +150,7 @@ const Home = () => {
               <img src={P2} alt='New year offer 9' className='rounded-lg' loading='lazy' />
             </a>
           </div>
-        </div>
+        </div> */}
         <div>
           <h1 className='md:text-5xl font-500 px-5 font-semibold flex items-center justify-center '>Our Diwali Prize Coupon winners - 2023</h1>
         </div>
