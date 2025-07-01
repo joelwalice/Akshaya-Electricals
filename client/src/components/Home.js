@@ -29,9 +29,9 @@ const Home = () => {
         <meta name="description" content="This is a description of my page" />
         <meta name="keywords" content="react, meta tags, seo" />
         <meta name="author" content="Your Name" />
-        <meta property="og:title" content="My Page Title" />
+        <meta property="og:title" content="Akshaya Home Appliances" />
         <meta property="og:description" content="This is a description of my page" />
-        <meta property="og:image" content={logo} />
+        <meta property="og:image" content="https://akshayahomeappliances.in/assets/css/logo.png" />
         <meta property="og:url" content="https://example.com/my-page" />
         <meta name="twitter:title" content="My Page Title" />
         <meta name="twitter:description" content="This is a description of my page" />
