@@ -85,7 +85,7 @@ const Home = () => {
 
               <h2 className="md:text-xl font-semibold mt-4">பொதுவான வழிகாட்டிகள்</h2>
               <ul className="list-disc ml-6">
-                <li>பதிவுக்கட்டணம்: ₹289 (அப்ரன், சான்றிதழ் மற்றும் ரிட்டர்ன் கிப்ட் உட்பட)</li>
+                <li>பதிவுக்கட்டணம்: ₹299 (அப்ரன், சான்றிதழ் மற்றும் ரிட்டர்ன் கிப்ட் உட்பட)</li>
                 <li>கடைசி பதிவு தேதி: 18 ஜூலை 2025</li>
               </ul>
 
@@ -143,7 +143,7 @@ const Home = () => {
 
               <h2 className="md:text-xl font-semibold mt-4">General Guidelines</h2>
               <ul className="list-disc ml-6">
-                <li>Registration Fee: ₹289 (Includes apron, certificate & return gift)</li>
+                <li>Registration Fee: ₹299 (Includes apron, certificate & return gift)</li>
                 <li>Last Date to Register: 18th July 2025</li>
               </ul>
 
