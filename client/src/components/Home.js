@@ -12,6 +12,7 @@ import H2 from "../assets/css/New Year/HomePg (2).png";
 import H3 from "../assets/css/New Year/HomePg (3).png";
 import H4 from "../assets/css/New Year/HomePg (4).png";
 import H5 from "../assets/css/New Year/HomePg (5).png";
+import logo from "../assets/css/logo.png";
 import { Helmet } from 'react-helmet-async'
 import DiwaliP1 from "../assets/css/Diwali Prize winners/Prize 1.heic"
 import DiwaliP2 from "../assets/css/Diwali Prize winners/Prize 2.heic"
@@ -30,7 +31,7 @@ const Home = () => {
         <meta name="author" content="Your Name" />
         <meta property="og:title" content="My Page Title" />
         <meta property="og:description" content="This is a description of my page" />
-        <meta property="og:image" content="https://example.com/image.jpg" />
+        <meta property="og:image" content={logo} />
         <meta property="og:url" content="https://example.com/my-page" />
         <meta name="twitter:title" content="My Page Title" />
         <meta name="twitter:description" content="This is a description of my page" />
