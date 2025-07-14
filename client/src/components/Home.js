@@ -80,13 +80,13 @@ const Home = () => {
             </h1>
 
             <div className="space-y-4 text-[12px] md:text-[16px] leading-relaxed">
-              <p><strong>தேதி:</strong> 20 ஜூலை 2025 (ஞாயிற்றுக்கிழமை)</p>
+              <p><strong>தேதி:</strong> 27 ஜூலை 2025 (ஞாயிற்றுக்கிழமை)</p>
               <p><strong>இடம்:</strong> அக்ஷயா ஹோம் அப்லையன்சஸ், அரியப்பம்பாளையம், சத்தியமங்கலம்</p>
 
               <h2 className="md:text-xl font-semibold mt-4">பொதுவான வழிகாட்டிகள்</h2>
               <ul className="list-disc ml-6">
                 <li>பதிவுக்கட்டணம்: ₹299 (அப்ரன், சான்றிதழ் மற்றும் ரிட்டர்ன் கிப்ட் உட்பட)</li>
-                <li>கடைசி பதிவு தேதி: 18 ஜூலை 2025</li>
+                <li>கடைசி பதிவு தேதி: 25 ஜூலை 2025</li>
               </ul>
 
               <h2 className="md:text-xl font-semibold mt-4">பங்கேற்பு தகுதிகள்</h2>
@@ -138,19 +138,19 @@ const Home = () => {
             </h1>
 
             <div className="space-y-4 text-[12px] md:text-[16px] leading-relaxed">
-              <p><strong>Date:</strong> 20th July 2025 (Sunday)</p>
+              <p><strong>Date:</strong> 27th July 2025 (Sunday)</p>
               <p><strong>Venue:</strong> Akshaya Home Appliances, Ariyapapampalayam, Sathyamangalam</p>
 
               <h2 className="md:text-xl font-semibold mt-4">General Guidelines</h2>
               <ul className="list-disc ml-6">
-                <li>Registration Fee: ₹299 (Includes apron, certificate & return gift)</li>
-                <li>Last Date to Register: 18th July 2025</li>
+                <li>Registration Fee: ₹299 (Includes apron , certificate & return gift)</li>
+                <li>Last Date to Register: 25th July 2025</li>
               </ul>
 
               <h2 className="md:text-xl font-semibold mt-4">Participation Criteria</h2>
               <ul className="list-disc ml-6">
                 <li>Participants must be 18 years or older</li>
-                <li>Open to home cooks and food enthusiasts (no professional chefs required)</li>
+                <li>Open to home cooks and food enthusiasts</li>
                 <li>Each participant must bring one innovative millet-based dish prepared at home for display and tasting</li>
               </ul>
 
